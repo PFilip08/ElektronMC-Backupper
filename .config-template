@@ -1,0 +1,15 @@
+# Elektron-Backupper v2 - Konfiguracja
+SFTP_HOST="sftp://HOST"
+SFTP_USER="user"
+SFTP_PASS="pass"
+SFTP_PORT="22"
+
+LOCAL_DIR="/mnt/localdir"
+MIRROR_DIR="/mnt/localdir/tmp_mirror"
+ARCHIVE_DIR="/mnt/localdir/ARCHIVE_DIR"
+
+DAYS_TO_KEEP=2
+
+NTFY_URL="https://ntfy.sh"
+NTFY_TOPIC="backupinfo"
+NTFY_TOKEN="tk_123456789"
